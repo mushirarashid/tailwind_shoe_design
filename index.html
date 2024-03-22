@@ -7,21 +7,101 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body
-    class="bg-gradient-to-b from-cyan-300 to-pink-200 h-screen flex justify-center items-center"
+    class="bg-gradient-to-b from-blue-400 from-50% to-white to-50% h-screen flex justify-center items-center"
   >
     <div class="h-[500px] relative group w-[400px]">
       <div
-        class="image h-full w-[400px] bg-white flex items-center px-5 absolute left-[50%] -translate-x-[50%] z-20 transition-all duration-600 ease-linear group-hover:-translate-x-[100%] group-hover:transition-all group-hover:duration-600 group-hover:ease-linear"
+        class="image h-full w-[400px] bg-white flex items-center px-5 absolute left-[50%] -translate-x-[50%] z-20 transition-all duration-600 ease-linear group-hover:-translate-x-[100%] group-hover:transition-all group-hover:duration-600 group-hover:ease-linear shadow-lg shadow-black-500/50"
       >
         <img
-          class="group-hover:-rotate-45 group-hover:transition-all group-hover:duration-600 group-hover:ease-linear"
+          class="group-hover:-rotate-45 group-hover:transition-all group-hover:duration-600 group-hover:ease-linear drop-shadow-[0_10px_5px_rgba(0,0,0,0.3)]"
           src="shoes.png"
           alt=""
         />
       </div>
       <div
-        class="info bg-blue-300 w-[400px] h-full absolute left-[50%] -translate-x-[50%] group-hover:-translate-x-[0%] transition-all duration-600 ease-linear group-hover:transition-all group-hover:duration-600 group-hover:ease-linear"
-      ></div>
+        class="info bg-blue-400 w-[400px] h-full absolute left-[50%] -translate-x-[50%] group-hover:-translate-x-[0%] transition-all duration-600 ease-linear group-hover:transition-all group-hover:duration-600 group-hover:ease-linear shadow-lg shadow-blck-500/50 p-5 before:w-4 before:h-4 before:bg-white before:absolute before:-left-[8px] before:top-1/2 before:rotate-45 overflow-hidden"
+      >
+        <div class="detail mt-5 mb-3">
+          <h3 class="font-sans uppercase text-2xl text-white font-bold">
+            nike air max
+          </h3>
+          <p
+            class="font-sans uppercase text-xs text-white font-normal mt-2 leading-5"
+          >
+            Lorem, ipsum dolor.
+          </p>
+        </div>
+
+        <div class="detail mt-5 mb-3">
+          <h3 class="font-sans uppercase text-2xl text-white font-bold">
+            nike air max
+          </h3>
+          <p
+            class="font-sans uppercase text-xs text-white font-normal mt-2 leading-5"
+          >
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ab
+            ullam beatae delectus? Ipsa earum
+          </p>
+        </div>
+        <div class="detail mt-5 mb-3">
+          <h3 class="font-sans uppercase text-2xl text-white font-bold">
+            size
+          </h3>
+          <div class="map flex gap-3 mt-2">
+            <div
+              class="box pt-2 pb-2 pl-3 pr-3 border inline-block text-white font-semibold hover:bg-white hover:text-blue-400 hover:transition-all hover:duration-300 hover:ease-linear"
+            >
+              30
+            </div>
+            <div
+              class="box pt-2 pb-2 pl-3 pr-3 border inline-block text-white font-semibold hover:bg-white hover:text-blue-400 hover:transition-all hover:duration-300 hover:ease-linear"
+            >
+              32
+            </div>
+
+            <div
+              class="box pt-2 pb-2 pl-3 pr-3 border inline-block text-white font-semibold hover:bg-white hover:text-blue-400 hover:transition-all hover:duration-300 hover:ease-linear"
+            >
+              36
+            </div>
+
+            <div
+              class="box pt-2 pb-2 pl-3 pr-3 border inline-block text-white font-semibold hover:bg-white hover:text-blue-400 hover:transition-all hover:duration-300 hover:ease-linear"
+            >
+              38
+            </div>
+
+            <div
+              class="box pt-2 pb-2 pl-3 pr-3 border inline-block text-white font-semibold hover:bg-white hover:text-blue-400 hover:transition-all hover:duration-300 hover:ease-linear"
+            >
+              40
+            </div>
+            <div
+              class="box pt-2 pb-2 pl-3 pr-3 border inline-block text-white font-semibold hover:bg-white hover:text-blue-400 hover:transition-all hover:duration-300 hover:ease-linear"
+            >
+              42
+            </div>
+          </div>
+        </div>
+        <!--  =====================taka ===========================-->
+        <div class="flex justify-between items-center py-3">
+          <div>
+            <p
+              class="font-sans pl-[6px] relative text-3xl text-white font-bold before:content-['$'] before:text-2xl before:absolute before:-top-1 before:-left-[6px]"
+            >
+              199.<span class="text-xl">99 </span>
+            </p>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="py-3 px-5 bg-white text-blue-400 uppercase font-bold"
+              >buy now</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
